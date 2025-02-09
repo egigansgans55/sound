@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playlist Spotify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Spotify Playlist</h1>
+  </header>
+  <div class="playlist-container">
+    <ul id="playlist"></ul>
+    <div class="controls">
+      <button onclick="previousSong()">&#9664;</button>
+      <button onclick="playPause()">&#9654;/&#10074;&#10074;</button>
+      <button onclick="stopSong()">&#9632;</button>
+      <button onclick="nextSong()">&#9654;&#9654;</button>
+    </div>
+    <p id="currentSong">Lagu: -</p>
+    <audio id="audioPlayer"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

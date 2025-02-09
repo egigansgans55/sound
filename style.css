@@ -1,0 +1,45 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+header {
+  background-color: #1db954;
+  padding: 20px;
+  text-align: center;
+}
+.playlist-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #181818;
+  border-radius: 8px;
+}
+#playlist {
+  list-style: none;
+  padding: 0;
+}
+#playlist li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#playlist li:hover,
+#playlist li.active {
+  background-color: #282828;
+}
+.controls {
+  text-align: center;
+  margin-top: 15px;
+}
+.controls button {
+  background-color: #1db954;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
